@@ -37,11 +37,11 @@ nav{
   justify-content: space-around;
 }
 
-.indent {
+.space {
   text-indent: 25px;
 }
 
-.routDiv{
+.routineDiv{
   border: 1px solid black;
   justify-content: center;
   margin: auto;
@@ -57,7 +57,7 @@ nav{
   background-color: #878d90;
 }
 
-.doubleInd {
+.doubleSpace {
   text-indent: 40px;
 }
 
