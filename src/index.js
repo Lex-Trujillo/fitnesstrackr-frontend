@@ -9,7 +9,6 @@ import {
   Activities,
   Routines,
   MyRoutines,
-  // Home,
   User,
   CreateActivity,
   CreateRoutine
