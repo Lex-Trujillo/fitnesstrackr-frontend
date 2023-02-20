@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { createActivity } from './api';
+import { createActivity } from '../api';
 
 const CreateActivity = () => {
 const [name, setName] = useState('')
