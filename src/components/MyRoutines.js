@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { deleteRoutine, fetchUserRoutines } from './api';
+import { deleteRoutine, fetchUserRoutines } from '../api';
 
 
 

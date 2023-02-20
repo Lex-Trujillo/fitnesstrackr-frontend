@@ -10,7 +10,7 @@ const Routines = (props) => {
               Routines ({routines.length})
           </h1>
           <hr></hr>
-          <ul>
+          <ul className='routineList'>
             {routines.map( (routine) => {
                 return(
                     <div className="routDiv" key={routine.id}>
