@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom'
 
 
 const User = (props) => {
+
     const user = props.user
-    return(
+    return (
         <div>
         <h1>
             {user.username}
