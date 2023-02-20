@@ -1,3 +1,61 @@
 body {
   font-family: verdana;
 }
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.left {
+  border: 1px solid black;
+  padding: 12px;
+  flex:1;
+  
+}
+
+.mid {
+  border: 1px solid black;
+  border-right: none;
+  border-left: none;
+  padding: 12px;
+  flex:2;
+  
+}
+
+.right {
+  border: 1px solid black;
+  padding: 12px;
+  flex:1;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+
+.indent {
+  text-indent: 25px;
+}
+
+.routDiv{
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.actDiv{
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.doubleInd {
+  text-indent: 40px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
