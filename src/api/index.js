@@ -66,7 +66,6 @@ export const createActivity = async (ev, name, description) => {
     try {
         ev.preventDefault()
         const token = window.localStorage.getItem('token')
-        console.log(token)
         const logURL = await fetch('http://fitnesstrac-kr.herokuapp.com/api/activities', {
             method: "POST",
             headers: {

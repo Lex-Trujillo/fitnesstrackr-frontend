@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-
-import { createRoutine } from "./api";
+import { createRoutine } from "../api";
 
 const CreateRoutine = ( {myRoutines, setMyRoutines} ) => {
 

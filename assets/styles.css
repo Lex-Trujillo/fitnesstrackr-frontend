@@ -13,8 +13,8 @@ body {
   border: 1px solid black;
   padding: 12px;
   flex:1;
-  
-}
+  background-color: #77a1b6;
+  }
 
 .mid {
   border: 1px solid black;
@@ -29,6 +29,7 @@ body {
   border: 1px solid black;
   padding: 12px;
   flex:1;
+  background-color: #77a1b6;
 }
 
 nav{
@@ -36,26 +37,50 @@ nav{
   justify-content: space-around;
 }
 
-.indent {
+.space {
   text-indent: 25px;
 }
 
-.routDiv{
+.routineDiv{
   border: 1px solid black;
-  margin: 1rem;
+  justify-content: center;
+  margin: auto;
   padding: 1rem;
+  background-color: #E2D1F9;
 }
 
 .actDiv{
   border: 1px solid black;
   padding: 1rem;
 }
+.actDiv:nth-child(even){
+  background-color: #878d90;
+}
 
-.doubleInd {
+.doubleSpace {
   text-indent: 40px;
 }
 
 form{
   display: flex;
   flex-direction: column;
+}
+
+h3{
+  align-items: center;
+  margin-left: 40%;
+}
+
+.routineList{
+  background-color: #317773;
+}
+
+a{
+  border: 1px solid black;
+  background-color: #878d90;
+  color:rgb(226, 226, 226);
+}
+button{
+  border-radius: 4px;
+  margin-top:1rem;
 }
