@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { login } from "../api";
 
 const Login = (props) => {
+
   const setUser = props.setUser;
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -39,9 +40,13 @@ const Login = (props) => {
         />
           <button>Login</button>
           {error.message && <p>{error.message}</p>}
+
       </form>
+
     </div>
+
   );
+  
 };
 
 export default Login;

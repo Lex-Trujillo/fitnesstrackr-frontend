@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import { register } from "../api";
 
 const Register = () => {
+
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [successMsg, setSuccessMessage] = useState("");
 
   const ifError = (response) => {
+    
     if (response.error) {
       setError(response);
     } else {
@@ -38,8 +40,10 @@ const Register = () => {
         <button>Register</button>
         {error.message ? <p>{error.message}</p> : <p>{successMsg.message}</p>}
       </form>
+
     </div>
   );
+
 };
 
 export default Register;
